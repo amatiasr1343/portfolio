@@ -1,0 +1,239 @@
+@font-face {
+
+font-family: "DMSans-Regular";
+src: url(../font/DMSans-Regular.ttf);
+font-family: "unicode.futurab";
+src: url(../futura/unicode.futurab.ttf);
+
+}
+
+
+
+
+
+
+h1, h2 {
+ 
+ font-family: "unicode.futurab";
+
+
+
+
+}
+
+
+
+
+
+.navbar {
+
+	background-color: black;
+
+	}
+
+
+.intro	{
+
+	background-color: grey;
+	text-align: center;
+
+
+
+	}
+
+button{
+
+	border-radius: 12px;
+
+
+
+	}
+
+
+.fotos img{
+
+	border-radius: 12px;
+
+
+
+	}
+
+
+video{
+
+	border-radius: 12px;
+
+
+	}
+
+
+
+
+
+#ilustra {
+
+	display: none;
+
+
+	}
+
+
+
+
+
+
+
+
+
+#web {
+
+	display: none;
+
+
+	}
+
+
+
+
+#d3 {
+
+	display: none;
+
+
+	}
+
+a:hover {
+
+	text-decoration: none;
+	color: black;
+
+
+	}
+
+
+a {
+
+	color: white;
+
+
+	}
+
+#contact {
+
+	background-color: #4668c1;
+
+
+	}	
+
+
+.reel{
+
+	background-color: #cc6699;
+
+
+	}
+
+
+.disenografico img{
+
+	border: solid red 20px;
+
+
+	}
+
+
+
+
+
+
+
+.my-services .col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+#servicios {
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+#servicios h4 {
+    transition: all 0.5s;
+}
+
+#servicios p {
+    transition: all 0.5s;
+}
+
+#servicios:hover {
+    background-color: #7d7e7f;
+}
+
+#servicios:hover h4 {
+    color: white;
+}
+
+#servicios:hover p {
+    color: white;
+}
+
+
+
+
+
+#foto img {
+
+transition: transform 1s ease;
+
+}
+
+#foto img:hover {
+	transform: scale(1.3);
+}
+
+
+.imagen {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+
+
+#video img {
+
+transition: transform 1s ease;
+
+}
+
+#video img:hover {
+	transform: scale(1.3);
+}
+
+
+
+
+#disenografico img {
+
+transition: transform 1s ease;
+
+}
+
+#disenografico img:hover {
+	transform: scale(1.3);
+}
+
+
+#web img {
+
+transition: transform 1s ease;
+
+}
+
+#web img:hover {
+	transform: scale(1.3);
+}
