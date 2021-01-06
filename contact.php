@@ -1,16 +1,23 @@
 <?php
 
-$destino = "matiasar1343@gmail.com";
-$nombre = $_POST["nombre"];
-$correo = $_POST["correo"];
-$mensaje = $_POST["mensaje"];
 
 
-$contenido = "nombre: " . $nombre . "\ncorreo: " . $correo . "\nmensaje: " . $mensaje;
+$nombre = $_POST['nombre'];
+$correo = $_POST['correo'];
+$mensaje = $_POST['mensaje'];
 
 
-mail($destino, "contacto", $contenido);
+$destinatario = "matiasar1343@gmail.com";
+$asunto = "Contacto desde mi web";
 
+
+$carta = "De: $nombre \n";
+$carta .= "Correo: $correo \n";
+$carta .= "Mensaje: $mensaje";
+
+
+mail($destinatario, $asunto, $carta);
+header('Location:mensaje-de-envio.html');
 
 
 
