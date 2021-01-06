@@ -383,29 +383,38 @@
             <div class="row">
 
 
-<form id="form1" name="form1" method="post" action="contact.php">
-                        <div class="col-sm-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
-                              <div class="controls">
-                                 <input class="contact_input" type="text" name="Nombre" placeholder="Nombre">
-                                 <i class="fa fa-user"></i>
-                              </div>
-                              <div class="controls">
-                                 <input class="contact_input" type="text" name="Correo" placeholder="Email">
-                                 <i class="fa fa-envelope-o"></i>
-                              </div>
-                              <div class="controls">
-                                 <input class="contact_input" type="text" name="Telefono" placeholder="Teléfono">
-                                 <i class="fa fa-phone"></i>
-                              </div>
-                        </div>
-                        <div class="col-sm-6 col-md-6 wow fadeInRight" data-wow-delay="0.2s">
-                              <textarea name="Mensaje" rows="7" class="form-control" placeholder="Mensaje"></textarea>
-                        </div>
-                        <div class="col-sm-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                           <button type="submit" id="submit" class="btn btn-common">Enviar <i class="fa fa-rocket"></i></button>
-                        </div>
-                     </form>
+                    <form class="offset-3 offset-lg-0" action="contact.php" method="post">
+                        <div class="form-row">
 
+                                
+                                <div class="form-group col-4">
+                                <input class="form-control" type="text" id="names" name="nombre" placeholder="Nombre *" required>
+                                <small class="form-text text-danger flex-grow-1 help-block lead"></small>
+                                </div>
+
+                                
+                                <div class="form-group col-4">
+                                <input class="form-control" type="text" id="email" name="correo" placeholder="Email *" required>
+                                <small class="form-text text-danger help-block lead"></small>
+                                </div>
+
+                                
+                                <div class="col-8">
+                                <textarea class="form-control" style="padding-bottom: 120px;" placeholder="Escribime tu consulta! *" id="mensaje" name="mensaje" required></textarea>
+                                <small class="form-text text-danger help-block lead"></small>
+                                </div>
+
+
+
+                        </div>
+
+                            
+                            <div class="col-5">
+                            <input class="btn btn-primary btn-xl text-uppercase shadow mt-3" type="submit" value="Enviar Mensaje" id="btnSend">
+                            </div>
+                                
+                        </div>
+                    </form>
 
 
             </div>
