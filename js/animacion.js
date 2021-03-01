@@ -20,8 +20,8 @@ window.sr = ScrollReveal();
 
 sr.reveal('.animacion-cosas', {
     duration: 2000,
-    origin: 'left',
-    distance: '-100px'
+    origin: 'bottom',
+    distance: '-70px'
   });
 
 
