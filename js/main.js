@@ -1,9 +1,10 @@
 function mostrarfoto () {
 
-	document.getElementById('foto').style.display = 'block';
-	document.getElementById('web').style.display = 'none';
-	document.getElementById('video').style.display = 'none';
-	document.getElementById('disenografico').style.display = 'none';
+	document.getElementById('collapseThree').style.display = 'block';
+	document.getElementById('collapseFour').style.display = 'none';
+	document.getElementById('collapseTwo').style.display = 'none';
+	document.getElementById('collapseOne').style.display = 'none';
+	document.getElementById('collapseFive').style.display = 'none';
 
 	}
 
@@ -12,10 +13,11 @@ function mostrarfoto () {
 
 function mostrarweb () {
 
-	document.getElementById('foto').style.display = 'none';
-	document.getElementById('web').style.display = 'block';
-	document.getElementById('video').style.display = 'none';
-	document.getElementById('disenografico').style.display = 'none';
+	document.getElementById('collapseThree').style.display = 'none';
+	document.getElementById('collapseFour').style.display = 'block';
+	document.getElementById('collapseTwo').style.display = 'none';
+	document.getElementById('collapseOne').style.display = 'none';
+	document.getElementById('collapseFive').style.display = 'none';
 
 
 	}
@@ -26,10 +28,11 @@ function mostrarweb () {
 
 function mostrarvideo () {
 
-	document.getElementById('foto').style.display = 'none';
-	document.getElementById('web').style.display = 'none';
-	document.getElementById('video').style.display = 'block';
-	document.getElementById('disenografico').style.display = 'none';
+	document.getElementById('collapseThree').style.display = 'none';
+	document.getElementById('collapseFour').style.display = 'none';
+	document.getElementById('collapseTwo').style.display = 'block';
+	document.getElementById('collapseOne').style.display = 'none';
+	document.getElementById('collapseFive').style.display = 'none';
 
 	}
 
@@ -39,17 +42,26 @@ function mostrarvideo () {
 
 function mostrardisenografico () {
 
-	document.getElementById('foto').style.display = 'none';
-	document.getElementById('web').style.display = 'none';
-	document.getElementById('video').style.display = 'none';
-	document.getElementById('disenografico').style.display = 'block';
+	document.getElementById('collapseThree').style.display = 'none';
+	document.getElementById('collapseFour').style.display = 'none';
+	document.getElementById('collapseTwo').style.display = 'none';
+	document.getElementById('collapseOne').style.display = 'block';
+	document.getElementById('collapseFive').style.display = 'none';
 
 	}
 
 
 
 
+function mostrar3d () {
 
+	document.getElementById('collapseThree').style.display = 'none';
+	document.getElementById('collapseFour').style.display = 'none';
+	document.getElementById('collapseTwo').style.display = 'none';
+	document.getElementById('collapseOne').style.display = 'none';
+	document.getElementById('collapseFive').style.display = 'block';
+
+	}
 
 
 
